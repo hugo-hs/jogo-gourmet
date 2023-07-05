@@ -23,9 +23,6 @@ public class DishGame {
             question.ask();
         }
 
-        System.out.println("Parent: " + question.getParentQuestion() != null ? question.getParentQuestion().getDish() : "");
-        System.out.println("Positive: " + question.getPositiveQuestion().getDish());
-        System.out.println("Negative: " + question.getNegativeQuestion().getDish());
         return confirmed;
     }
 }
